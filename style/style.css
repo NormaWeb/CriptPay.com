@@ -67,3 +67,10 @@ section {
 .mg{
     margin-left: 400px;
 }
+
+@media (max-width:1028px) {
+    section{
+        text-align: center;
+    }
+}
+
