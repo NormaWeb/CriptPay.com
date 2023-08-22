@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     font-family: 'Space Grotesk';
+    margin-top: 10px;
 }
 
 
@@ -68,9 +69,37 @@ section {
     margin-left: 400px;
 }
 
-@media (max-width:1028px) {
+@media (max-width:768px) {
     section{
         text-align: center;
+        font-size: small;   
     }
+    .btcol{
+        display: block;
+        flex-direction: column;
+    }
+    .tab{
+        width: auto;
+        margin: auto;
+    }
+    .btn{
+        display: block;
+        flex-direction: column;
+    }
+    .bj{
+        width: auto;
+    }
+    .main-text {
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+    .spl{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+    }
+    
 }
 
