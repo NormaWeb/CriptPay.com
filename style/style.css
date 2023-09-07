@@ -42,8 +42,27 @@ section {
     text-decoration: none;
 }
 
+/* BTN */
 .btn {
     border-radius: 100px;
+    border-color: #b0f127 !important;
+    padding: 1rem 2.5rem !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover, .btn.btn-outline-light:hover{
+    background-color: #b0f127 !important;
+    border-color: #b0f127 !important;
+    color: black !important;
+
+}
+.green .btn.btn-outline-dark{
+    border-color: #141414 !important;
+}
+.green .btn:hover, .btn.btn-outline-dark:hover{
+    background-color: #141414 !important;
+    border-color: #141414 !important;
+    color: white !important;
 }
 
 .bj {
@@ -99,7 +118,6 @@ section {
         flex-direction: column;
         width: auto;
         margin: auto;
-    }
-    
+    }    
 }
 
